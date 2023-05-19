@@ -1,0 +1,41 @@
+body#corpo {
+    background-color: #DCDCDC;
+}
+#container {
+    width: 920px;
+    height: 600px;
+    border: 1px solid;
+    margin: auto;
+}
+#topo {
+    border: 1px solid;
+    width: 920px;
+    height: 200px;
+    background-color: blueviolet;
+}
+#content {
+    border: 1px solid;
+    width: 920px;
+    height: 350px;
+    background-color: cadetblue;
+}
+#col1 {
+    border: 1px solid;
+    width: 450px;
+    height: 350px;
+    background-color: chartreuse;
+    float: left;
+}
+#col2 {
+    border: 1px solid;
+    width: 450px;
+    height: 350px;
+    background-color: darksalmon;
+    float: right;
+}
+#footer {
+    border: 1px solid;
+    width: 920px;
+    height: 50px;
+    background-color: brown;
+}

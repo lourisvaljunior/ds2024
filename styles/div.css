@@ -1,0 +1,22 @@
+#topo {
+    border: 3px solid;
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    float: left;
+}
+/* Box */
+.menu {
+    width: 200px;
+    height: 200px;
+    border: solid;
+    background-color: cadetblue;
+    float: right;
+}
+#texto {
+    border: solid;
+    clear: both;
+    background-color: chocolate;
+    
+} 
+

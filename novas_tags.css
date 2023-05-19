@@ -1,0 +1,74 @@
+/* SELETOR UNIVERSAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgb(221, 221, 221);
+
+}
+#container {
+    width: 1200px;
+    height: 550px;
+    /* border: solid; */
+    margin: 0 auto;
+}
+header {
+    width: 1200px;
+    height: 100px;
+    /* border: solid; */
+    background-color: brown;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+nav {
+    width: 1200px;
+    height: 50px;
+    background-color: burlywood;
+    /* border: solid; */
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+main {
+    width: 880px;
+    height: 350px;
+    background-color: rgb(63, 79, 61);
+    /* border: solid; */
+    float: left;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+section {
+    /* border: solid; */
+    width: 800px;
+    height: 120px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(114, 150, 150);
+}
+aside {
+    width: 300px;
+    height: 350px;
+    background-color: rgb(58, 138, 124);
+    /* border: solid; */
+    float: right;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+footer {
+    width: 1200px;
+    height: 50px;
+    background-color: rgb(147, 143, 65);
+    /* border: solid; */
+    clear: both;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+    

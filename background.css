@@ -1,0 +1,23 @@
+body {
+    /* background-color: rgb(63, 159, 63);
+    background-image: url(images/muro.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed; */
+    background-image: url(images/moto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+img {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    
+}
+img:hover {
+    width: 55px;
+    filter: drop-shadow(5px 5px gray);
+}
