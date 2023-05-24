@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu Horizontal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html body {
+            background-color: #ccc;
+        }
+        .menu {
+            background-color: darkgrey;
+            overflow: hidden;
+        }
+        .menu a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 5px;
+            line-height: 20px;
+            float: left;
+        }
+        .menu a:hover {
+            background-color: brown;
+            color: black;
+        }
+        .menu a:active {
+            background-color: green;
+            color: white;
+            font-size: 20px;
+        }
+        /* .menu a:visited {
+            color: black;
+            background: green;
+        } */
+        #home {
+            background-color: green;
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <a id="home" href="menu_horizontal.html">HOME</a>
+            <a href="new.html" target="_blank">NEW</a>
+            <a href="#">CONTACT</a>
+            <a style="float:right" href="about.html" target="_blank">ABOUT</a>
+        </div>
+    </nav>
+</body>
+</html>
